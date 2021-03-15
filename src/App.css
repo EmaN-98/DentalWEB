@@ -1,0 +1,109 @@
+.parent {
+  background-image: url("back4.jpg");
+  background-size: cover;
+  background-color: rosybrown;
+}
+
+.nav-bar {
+  background-color: skyblue;
+  overflow: auto;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: Georgia;
+  font-size: 20px;
+  color: powderblue;
+  border: darkslateblue;
+  height: 40px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.nav-bar a {
+  color: azure;
+  text-decoration: none;
+}
+
+.nav-bar a:visited {
+  color: lavender;
+  text-decoration: none;
+}
+
+.nav-bar .nav-bar-item {
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.nav-bar .nav-bar-item-logo {
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.nav-bar .nav-bar-item:hover {
+  background-color: powderblue ;
+}
+
+#nav-bar-logo {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  height: 33px;
+  width: 190px;
+  list-style: none;
+}
+
+#nav-bar-logo img {
+  height: 100%;
+  padding: 0px;
+  padding-top: 4px;
+  padding-left: 30px;
+  transition: transform 1s ease;
+}
+
+#nav-bar-logo:hover img {
+  transform: scale(1.4,1.3);
+}
+#nav-bar-home {
+  text-transform: uppercase;
+  float: left;
+}
+
+.title{
+  text-align: center;
+  font-family: Great Vibes;
+  font-size: 50px;
+  color: rgb(118, 38, 104);
+  text-shadow: 1px 1px white;
+}
+
+.container {
+  width: 100%;
+  background-color: transparent;
+  padding: 2%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Great Vibes;
+  font-size: 36px;
+  color: rgb(118, 38, 104);
+}
+
+.carousel-content{
+  margin: auto;
+}
+.carousel-content img{
+  border-radius: 35px;
+  box-shadow: 5px 5px 8px 7px white;
+}
