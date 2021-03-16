@@ -1,0 +1,21 @@
+.cont{
+    background-color: lightblue;
+    border-radius: 35px;
+    box-shadow: inset 5px 5px 8px 7px white;
+}
+
+.card-rowM {
+    padding-top: 20px;
+    padding-bottom: 55px;
+    background-size: cover;
+}
+
+.crdM{
+    border-radius: 35px;
+    box-shadow: 5px 5px 8px 7px white;
+    text-align: center;
+}
+
+.card-contentM:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,16 @@
+.titl{
+    text-align: center;
+    font-family: Courgette;
+    font-size: 28px;
+    color: rgb(118, 38, 104);
+    text-shadow: 1px 2px white;
+    padding: 3%;
+}
+
+.descriere{
+    text-align: center;
+    font-family: Courgette;
+    font-size: 22px;
+    color: rgb(118, 38, 104);
+    padding: 3%;
+}
