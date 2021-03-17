@@ -1,0 +1,31 @@
+.titl{
+    text-align: center;
+    font-family: Courgette;
+    font-size: 28px;
+    color: rgb(118, 38, 104);
+    text-shadow: 1px 2px white;
+    padding: 3%;
+}
+
+.noutati-tabs{
+    text-align: center;
+    font-family: Courgette;
+    font-size: 25px;
+    color: midnightblue;
+    text-shadow: 1px 2px white;
+    padding: 3%;
+    border-radius: 35px;
+    box-shadow: inset 5px 5px 8px 7px white;
+
+}
+
+.noutati-tab{
+    text-align: left;
+    font-family: Courgette;
+    font-size: 20px;
+    color: midnightblue;
+    padding: 4%;
+    border-radius: 35px;
+    box-shadow: inset 5px 5px 8px 7px white;
+
+}
