@@ -1,36 +1,44 @@
 import './Servicii-tarife.css';
 import {Table} from 'react-bootstrap';
+import {useTranslation} from "react-i18next";
+import i18next from "i18next";
 
 export default function ServiciiTarife() {
+
+    const { t } = useTranslation();
+
+    function handleClick(lang) {
+        i18next.changeLanguage(lang)
+    }
+
     return (<div className="parent">
 
             <div className="titl">
-                <b>Va punem la dispozitie lista serviciilor disponibile in cadrul cabinetelor noastre,<br/> precum si
-                    costurile aferente acestora:</b>
+                <b>{t('Title.7')}</b>
             </div>
             <div className="tabel">
                 <Table striped bordered hover size="sm">
                     <thead>
                     <tr>
                         <th></th>
-                        <th>Consultatii</th>
-                        <th>Tarif (lei)</th>
+                        <th>{t('Table.1')}</th>
+                        <th>Cost (lei)</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Consultatie initiala</td>
+                        <td>{t('Table.2')}</td>
                         <td>70</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Consultatie secundara/Plan de tratament</td>
+                        <td>{t('Table.3')}</td>
                         <td>70</td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Documentare foto</td>
+                        <td>{t('Table.4')}</td>
                         <td>50</td>
                     </tr>
                     </tbody>
@@ -38,44 +46,44 @@ export default function ServiciiTarife() {
                     <thead>
                     <tr>
                         <th></th>
-                        <th>Profilaxie</th>
-                        <th>Tarif (lei)</th>
+                        <th>{t('Table.5')}</th>
+                        <th>Cost (lei)</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Pachet igienizare (detartraj, periaj profesional, Air-Flow, instructaj periaj)</td>
+                        <td>{t('Table.6')}</td>
                         <td>220</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Periaj profesional</td>
+                        <td>{t('Table.7')}</td>
                         <td>70</td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Fluorizare</td>
+                        <td>{t('Table.8')}</td>
                         <td>50</td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>Air Flow(igienizare jet bicarbonat)</td>
+                        <td>{t('Table.9')}</td>
                         <td>100</td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>Sigilare</td>
+                        <td>{t('Table.10')}</td>
                         <td>120/dinte</td>
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>Detartraj cu ultrasunete</td>
+                        <td>{t('Table.11')}</td>
                         <td>100/arcada</td>
                     </tr>
                     <tr>
                         <td>7</td>
-                        <td>Control periodic + igienizare</td>
+                        <td>{t('Table.12')}</td>
                         <td>120</td>
                     </tr>
                     </tbody>
@@ -83,19 +91,19 @@ export default function ServiciiTarife() {
                     <thead>
                     <tr>
                         <th></th>
-                        <th>Estetica dentara</th>
-                        <th>Tarif (lei)</th>
+                        <th>{t('Table.13')}</th>
+                        <th>Cost (lei)</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Albire dentara lampa UV</td>
+                        <td>{t('Table.14')}</td>
                         <td>800</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Gutiere albire </td>
+                        <td>{t('Table.15')}</td>
                         <td>200/arcada</td>
                     </tr>
                     <tr>
@@ -114,7 +122,7 @@ export default function ServiciiTarife() {
                     <tr>
                         <th></th>
                         <th>Ortodontie</th>
-                        <th>Tarif (lei)</th>
+                        <th>Cost (lei)</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -174,7 +182,7 @@ export default function ServiciiTarife() {
                     <tr>
                         <th></th>
                         <th>Odontoterapie</th>
-                        <th>Tarif (lei)</th>
+                        <th>Cost (lei)</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -209,7 +217,7 @@ export default function ServiciiTarife() {
                     <tr>
                         <th></th>
                         <th>Chirurgie orala</th>
-                        <th>Tarif (lei)</th>
+                        <th>Cost (lei)</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -254,7 +262,7 @@ export default function ServiciiTarife() {
                     <tr>
                         <th></th>
                         <th>Implantologie</th>
-                        <th>Tarif (lei)</th>
+                        <th>Cost (lei)</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -299,7 +307,7 @@ export default function ServiciiTarife() {
                     <tr>
                         <th></th>
                         <th>Protetica</th>
-                        <th>Tarif (lei)</th>
+                        <th>Cost (lei)</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -384,7 +392,7 @@ export default function ServiciiTarife() {
                     <tr>
                         <th></th>
                         <th>Edodontie</th>
-                        <th>Tarif (lei)</th>
+                        <th>Cost (lei)</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -439,7 +447,7 @@ export default function ServiciiTarife() {
                     <tr>
                         <th></th>
                         <th>Pedodontie</th>
-                        <th>Tarif (lei)</th>
+                        <th>Cost (lei)</th>
                     </tr>
                     </thead>
                     <tbody>

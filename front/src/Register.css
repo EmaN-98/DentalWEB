@@ -1,0 +1,29 @@
+.parent{
+    overflow-x: hidden;
+    align-items: center;
+}
+
+.titl{
+    text-align: center;
+    font-family: Courgette;
+    font-size: 28px;
+    color: rgb(118, 38, 104);
+    text-shadow: 1px 2px white;
+    padding: 3%;
+}
+
+.conta{
+    background-color: lightblue;
+    border-radius: 25px;
+    box-shadow: inset 5px 5px 8px 7px white;
+    align-items: center;
+    font-family: Courgette;
+    font-size: 25px;
+    color: rgb(118, 38, 104);
+    width: 50%;
+    height: 460px;
+    margin: 0 auto;
+    padding: 3%;
+
+}
+

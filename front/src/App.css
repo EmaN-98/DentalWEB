@@ -44,6 +44,16 @@
   padding-right: 8px;
 }
 
+.nav-bar .nav-bar-item-login {
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rosybrown;
+
+}
+
 .nav-bar .nav-bar-item-logo {
   float: right;
   padding-top: 5px;
@@ -107,3 +117,9 @@
   border-radius: 35px;
   box-shadow: 5px 5px 8px 7px white;
 }
+
+.button {
+  border-radius: 50%;
+  font-size: 13px;
+}
+

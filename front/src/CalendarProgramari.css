@@ -1,0 +1,8 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
+.parent{
+    overflow-x: hidden;
+    align-items: center;
+}
+

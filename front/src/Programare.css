@@ -1,0 +1,29 @@
+.parent{
+    overflow-x: hidden;
+    align-items: center;
+    background-size: cover;
+}
+
+.titl{
+    text-align: center;
+    font-family: Courgette;
+    font-size: 28px;
+    color: rgb(118, 38, 104);
+    text-shadow: 1px 2px white;
+    padding: 3%;
+}
+
+.form-container{
+   padding:35px;
+    align-items: center;
+}
+
+.parent .form-roww{
+    padding:35px;
+    align-items: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 75px;
+    margin-top: 0px;
+}
+

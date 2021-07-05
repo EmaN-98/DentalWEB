@@ -6,19 +6,29 @@ import {
     Col,
     Carousel
 } from 'react-bootstrap';
+import {Player} from "video-react";
+import '../node_modules/video-react/dist/video-react.css'
+import {useTranslation} from "react-i18next";
+import i18next from "i18next";
 
 
 function Home() {
+
+    const { t } = useTranslation();
+
+    function handleClick(lang) {
+        i18next.changeLanguage(lang)
+    }
+
     return (<div className="parent">
             <div className="title">
-                Bine ati venit pe site-ul cabinetului stomatologic<br/><i><b>~DentaWEB~</b></i>
+                {t('Title.1')} <br/><i><b>~DentaWEB~</b></i>
             </div>
 
             <div className="container">
                 <Container fluid>
                     <Row>
-                        <Col>Noi va oferim calitate, profesionalism si preturi accesibile, indiferent de serviciile de
-                            care aveti nevoie:</Col>
+                        <Col>{t('Description.1')}</Col>
                     </Row>
                     <Row>
                         <Col md={9} className="carousel-content">
@@ -110,13 +120,19 @@ function Home() {
                                         <h3>Extractii</h3>
                                     </Carousel.Caption>
                                 </Carousel.Item>
-
                             </Carousel>
+
                         </Col>
                     </Row>
                     <Row>
-                        <Col>...si multe alte servicii de calitate!</Col>
+                        <Col>{t('Description.2')}</Col>
                     </Row>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fQyhxULzA0w"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen></iframe>
+
                 </Container>
             </div>
         </div>

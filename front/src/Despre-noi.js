@@ -1,28 +1,34 @@
 import './Despre-noi.css';
 import {Carousel, Col, Container, Row} from "react-bootstrap";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import {useTranslation} from "react-i18next";
+import i18next from "i18next";
 
 export default function DespreNoi() {
+
+    const { t } = useTranslation();
+
+    function handleClick(lang) {
+        i18next.changeLanguage(lang)
+    }
+
     return (<div className="parent">
 
         <div className="titl">
-            <i>DentaWEB</i> este rezultatul pasiunii echipei noastre pentru medicina -stomatologie,<br/> dar mai
-            ales pentru oameni.
+            <i>DentaWEB</i> {t('Title.3')}
             <br/>
-            <b>Dorinta</b> noastra: sa va vedem <b>zambind</b> :)
+            {t('Title.4')}
             <br/>
         </div>
 
         <div className="descriere">
-            In cabinetele noastre veti putea opta pentru servicii din cadrul tuturor specialitatilor medicinei dentare
-            moderne, servicii realizate de catre medici profestionisti, folosind materiale de inalta calitate si
-            aparatura moderna.
+            {t('Description.3')}
         </div>
 
         <div className="container">
             <Container fluid>
                 <Row>
-                    <Col>Va asteptam intr-un mediu primitor, recent reamenajat:</Col>
+                    <Col>{t('Description.4')}</Col>
                 </Row>
                 <Row>
                     <Col md={9} className="carousel-content">
@@ -109,9 +115,7 @@ export default function DespreNoi() {
                         </Carousel>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>...si multe alte servicii de calitate!</Col>
-                </Row>
+
             </Container>
         </div>
         </div>

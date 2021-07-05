@@ -1,0 +1,111 @@
+{
+  "Title": {
+    "1": "Welcome to the dental office website",
+    "2": "Here you will find the latest news:",
+    "3": "is the result of our team's passion for medicine-dentistry, but especially for people.",
+    "4": "Our wish: to see you ~ smiling ~ :D",
+    "5": "Those who bring the smile back to your lips:",
+    "6": "For additional information and appointments, we provide you with our contact details, also offering you the opportunity to schedule online:",
+    "7": "We provide you with the list of services available in our offices, as well as their related costs:",
+    "8": "Login page",
+    "9": "Register page",
+    "10": "Appointment page",
+    "11": "Profile page"
+  },
+  "Nav": {
+    "1": "Home",
+    "2": "News",
+    "3": "About us",
+    "4": "Doctors",
+    "5": "Services&Costs",
+    "6": "Contact",
+    "7": "Profile",
+    "8": "Appointment"
+  },
+  "Tab": {
+    "1": "Prevention measures COVID",
+    "2": "Resumption of activity",
+    "3": "Temporary cessation of activity"
+  },
+  "Description": {
+    "1": "We offer quality, professionalism and affordable prices, regardless of the services you need:",
+    "2": "... and many other quality services!",
+    "3": "In our practices you will be able to opt for services from all specialties of modern dentistry, services performed by professional doctors, using high quality materials and modern equipment.",
+    "4": "We are waiting for you in a welcoming, recently refurbished environment:"
+  },
+  "Announce": {
+    "1": "Announce 18th of may 2020",
+    "2": "Announce 10th of may 2020",
+    "3": "Announce 15th of march 2020"
+  },
+  "Beginning": {
+    "1": "Dear patients,"
+  },
+  "Text": {
+    "1": "We present to you the most important measures that you must consider regarding your visit and the activity within the DentaWEB clinic in the following period. We mention that all these measures are valid starting with May 18, 2020, having the role to ensure the protection and health of patients and staff, in accordance with the legislation in force.",
+    "2": "Scheduling for dental treatment",
+    "3": "Access to the clinic for any dental treatment will be made exclusively based on a prior telephone appointment and after a triage.",
+    "4": "Please understand that these rules have the role of protecting both you and the medical staff and it is very important to strictly observe the set schedule!",
+    "5": "Staying in the waiting room inside the clinic is NOT allowed",
+    "6": "If you arrive before the appointment time, you will wait outside the clinic or in your own car, and you will be notified by telephone by the clinic staff when they can enter the office.",
+    "7": "While waiting outside the clinic, you will follow the rules in force (mandatory wearing a mask to cover the mouth and nose, ensuring a distance of at least 1.5 m between people).",
+    "8": "Measures when entering the clinic",
+    "9": "Access to the actual treatment room will be allowed only to the patient, the members can wait outside the clinic. Exceptions are special situations (children, dependents, etc.), in which case access will be limited to one accompanying person . ",
+    "10": "Each patient and family member, as appropriate, will wear their own protective mask and gloves upon entering the clinic.",
+    "11": "At the entrance to the clinic, patients will have their temperature checked, their hands disinfected, they will be dressed in protective equipment (robe, boot, cap) provided by DentaWEB, and personal belongings will be made available. a specially arranged place. ",
+    "12": "Avoid contact with staff as much as possible (keep a distance of 1.5 m during the discussion), furniture, door handles",
+    "13": "Measures when entering the cabinet",
+    "14": "Before starting the dental intervention, the patient will have to fill in the general health assessment questionnaire.",
+    "15": "Both before and at the end of the dental intervention, the patient will rinse his mouth with a solution of hydrogen peroxide (diluted 1%) or isobetadine, provided by the AnaDent clinic.",
+    "16": "Thank you for your understanding and trust!",
+    "17": "We are pleased to announce that, starting with May 18, 2020, the DentaWEB clinic will reopen its doors. We are grateful to all of you for your patience, knowing how challenging this period has been for all of us.",
+    "18": "The safety and health of patients and staff remain first for us, so we take the necessary steps and prepare to meet all the standards of protection imposed by the context of the COVID-19 pandemic. The new regulations that will impose a series of changes regarding the way of working will be displayed on our website and at the office. ",
+    "19": "Appointments can be made by phone starting with May 14, 2020!",
+    "20": "In the meantime, we remain at your disposal at the telephone numbers on the contact page to further support you in emergencies. ",
+    "21": "Thank you and see you again well!",
+    "22": "On the basis of the institutions of the state of emergency decreed by the authorities, we inform you that starting Tuesday, March 17, 2020, the DentaWEB clinic will be closed. This measure will be applied until the restrictions are lifted. imposed by the spread of COVID-19 virus infection. ",
+    "23": "However, we would like to inform you that we have opened a helpline, which will be available from Monday to Friday, between the hours of 9-15: 0744 144 097.",
+    "24": "This telephone number for emergencies (pain, bleeding, infections) will be answered by the approved medical staff of our clinic and you will be able to receive a series of guidelines or possible treatments by phone in order to solve your dental health problem.",
+    "25": "Your appointment will be confirmed by e-mail and telephone within a maximum of 2 working days, depending on the existence of a place available on the desired date, otherwise another date will be established by telephone."
+  },
+  "Card": {
+    "1": "With a lot of passion for medicine and children, Miriam has been our pedodontist for more than 5 years.",
+    "2": "Andrei is the one who deals with the oral surgery part, having many years of active experience.",
+    "3": "Ioana is the one who offers patients a perfect smile, restoring their confidence, through various orthodontic services.",
+    "4": "When it comes to dental implants, Vlad is the one who makes this procedure possible.",
+    "5": "Everything related to dental prophylaxis and aesthetics in our country is the responsibility of Cristina, who always completes it successfully.",
+    "6": "Ionut takes care of endodontics and odontotherapy services, ensuring you a healthy and painless teeth.",
+    "7": "Address: rue Paris, 22, Cluj-Napoca, Romania",
+    "8": "Address: rue Izlazului, 42, Cluj-Napoca, Romania",
+    "9": "Enter data:"
+  },
+  "Field": {
+    "1": "Name",
+    "3": "Date of appointment",
+    "2": "Telephone",
+    "4": "Message",
+    "5": "Select cabinet",
+    "6": "Send",
+    "7": "Password",
+    "8": "Services",
+    "9": "Load GDPR consent:"
+  },
+  "Table": {
+    "1":"Consultations",
+    "2":"Main consultation",
+    "3":"Main consultation / Treatment plan",
+    "4":"Photo documentation",
+    "5":"Prophylaxis",
+    "6":"Sanitation package (descaling, professional brushing, Air-Flow, brushing instructions)",
+    "7":"Professional brushes",
+    "8":"Fluoridation",
+    "9":"Air Flow (bicarbonate jet sanitization)",
+    "10":"sealing",
+    "11":"Ultrasonic descaling",
+    "12":"Periodic control + sanitation",
+    "13":"Dental aesthetics",
+    "14":"Dental whitening UV lamp",
+    "15":"Whitening gutters"
+
+  }
+}

@@ -1,5 +1,6 @@
 .parent{
     overflow-x: hidden;
+    align-items: center;
 }
 
 .titl{
@@ -11,33 +12,17 @@
     padding: 3%;
 }
 
-.card-row {
+.conta{
     background-color: lightblue;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-size: cover;
-    border-radius: 35px;
+    border-radius: 25px;
     box-shadow: inset 5px 5px 8px 7px white;
-}
-
-.crd{
-    border-radius: 35px;
-    box-shadow: 5px 5px 8px 7px white;
-}
-
-.card-content:hover {
-    transform: scale(1.2);
-}
-
-.form-container{
-   padding:35px;
     align-items: center;
-}
-
-.anunt{
-    text-align: center;
     font-family: Courgette;
-    font-size: 22px;
+    font-size: 25px;
     color: rgb(118, 38, 104);
-    padding: 10px;
+    width: 50%;
+    height: 460px;
+    margin: 0 auto;
+    padding: 3%;
+
 }

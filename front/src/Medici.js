@@ -1,14 +1,21 @@
 import './Medici.css';
 import {Card, Col, Row} from "react-bootstrap";
+import {useTranslation} from "react-i18next";
+import i18next from "i18next";
 
 export default function Medici() {
+
+    const { t } = useTranslation();
+
+    function handleClick(lang) {
+        i18next.changeLanguage(lang)
+    }
+
     return (<div className="parent">
 
             <div className="titl">
-                <b>Cei care </b><i>va readuc zambetul pe buze</i>:
+                <b>{t('Title.5')}</b>
             </div>
-
-
 
             <div className="cont">
                 <Row className="card-rowM mx-auto" style={{width: '72rem'}}>
@@ -19,8 +26,7 @@ export default function Medici() {
                                       style={{width: '20rem', height: '23rem'}}></Card.Img>
                             <Card.Body>
                                 <Card.Text>
-                                    Cu multa pasiune pentru medicina si pentru copii, Miriam este medicul nostru
-                                    pedodont de mai bine de 5 ani.
+                                    {t('Card.1')}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -32,7 +38,7 @@ export default function Medici() {
                                       style={{width: '19rem', height: '23rem'}}></Card.Img>
                             <Card.Body>
                                 <Card.Text>
-                                    Andrei este cel care se ocupa de partea de chirurgie orala, avand multi ani de experienta la activ.
+                                    {t('Card.2')}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -44,7 +50,7 @@ export default function Medici() {
                                       style={{width: '18rem', height: '23rem'}}></Card.Img>
                             <Card.Body>
                                 <Card.Text>
-                                    Ioana este cea care ofera pacientilor un zambet perfect, redandu-le increderea, prin diferite servicii ortodontice.
+                                    {t('Card.3')}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -59,7 +65,7 @@ export default function Medici() {
                                       style={{width: '19rem', height: '23rem'}}></Card.Img>
                             <Card.Body>
                                 <Card.Text>
-                                    Cand vine vorba de implanturi dentare, Vlad este cel care face posibila aceasta procedura.
+                                    {t('Card.4')}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -71,7 +77,7 @@ export default function Medici() {
                                       style={{width: '19rem', height: '23rem'}}></Card.Img>
                             <Card.Body>
                                 <Card.Text>
-                                    Tot ce tine de profilaxie si estetica dentara la noi revine in sarcina Cristinei care mereu o duce la capat cu succes.
+                                    {t('Card.5')}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -83,13 +89,19 @@ export default function Medici() {
                                       style={{width: '20rem', height: '23rem'}}></Card.Img>
                             <Card.Body>
                                 <Card.Text>
-                                    Ionut se ocupa de serviciile de endodontie si odontoterapie, asigurandu-va o dantura sanatoasa si nedureroasa.
+                                    {t('Card.6')}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                 </Row>
             </div>
+
+            <ul className="pagination">
+                <li className="back"><a href="/despre-noi">Back</a></li>
+                <li className="forward"><a href="/servicii&tarife">Forward</a></li>
+            </ul>
+
         </div>
     );
 }
